@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx", // ✅ Required for React 17+
+        "esModuleInterop": true, // ✅ Needed for default imports
+        "allowSyntheticDefaultImports": true,
+        "target": "es6",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "./*"
+            ]
+        }
+    }
+}
